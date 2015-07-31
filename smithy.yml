@@ -7,5 +7,5 @@ requirements:
 
 artifacts:
   cdn:
-    - print "Hello World"
+    - hi
   
