@@ -5,6 +5,7 @@ requirements:
   - requirements.txt
   - requirements_dev.txt
 
-script:
-  - sleep 360
+artifacts:
+  cdn:
+    - print "Hello World"
   
