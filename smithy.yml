@@ -1,5 +1,5 @@
-project: python
-runtime: 2.7
+project: numb_nuts
+language: ninja
 
 script:
   - 'echo "ALL UR WEBFILINGS ARE BELONG TO WORKIVA: $HOME"'
