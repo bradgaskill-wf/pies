@@ -11,5 +11,5 @@ script:
   - ls -la
 
 artifacts:
-  shipyard:
+  nuts:
     - hello_world.tar
