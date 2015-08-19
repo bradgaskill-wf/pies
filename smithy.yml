@@ -11,5 +11,5 @@ script:
   - ls -la
 
 artifacts:
-  nuts:
+  docker:
     - hello_world.tar
