@@ -3,8 +3,8 @@ language: ninja
 
 script:
   - 'echo "ALL UR WEBFILINGS ARE BELONG TO WORKIVA: $HOME"'
-  - mkdir servers/m1-dev-server/packages
-  - mkdir servers/m1/packages
+  - mkdir /servers/m1-dev-server/packages
+  - mkdir /servers/m1/packages
   - touch hello_world.txt
   - echo "Hello World!" > hello_world.txt
   - tar cvf hello_world.tar hello_world.txt
