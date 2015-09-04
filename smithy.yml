@@ -8,5 +8,5 @@ script:
   - ls -la
 
 artifacts:
-  docker:
+  ninja:
     - hello_world.tar
