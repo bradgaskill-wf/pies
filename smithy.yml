@@ -10,3 +10,5 @@ script:
 artifacts:
   ninja:
     - hello_world.tar
+  build:
+    - hello_world.tar
