@@ -10,8 +10,6 @@ script:
 artifacts:
   ninja:
     - hello_world.tar
-  build:
-    - hello_world.tar
   cdn:
     - hello_world.tar
   pypi:
