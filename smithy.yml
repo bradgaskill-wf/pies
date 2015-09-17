@@ -12,3 +12,9 @@ artifacts:
     - hello_world.tar
   build:
     - hello_world.tar
+  cdn:
+    - hello_world.tar
+  pypi:
+    - hello_world.tar
+  npm:
+    - hello_world.tar
