@@ -1,5 +1,5 @@
-project: numb_nuts
-language: ninja
+project: something_awesome
+language: something_awesome
 
 script:
   - touch hello_world.txt
