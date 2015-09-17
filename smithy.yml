@@ -8,11 +8,7 @@ script:
   - ls -la
 
 artifacts:
-  - ninja:
+  ninja:
     - hello_world.tar
-  - cdn:
-    - hello_world.tar
-  - pypi:
-    - hello_world.tar
-  - npm:
+  pypi:
     - hello_world.tar
