@@ -14,3 +14,5 @@ artifacts:
     - hello_world.tar
   npm:
     - hello_world.tar
+  cdn:
+    - hello_world.tar
