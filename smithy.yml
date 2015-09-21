@@ -12,3 +12,5 @@ artifacts:
     - hello_world.tar
   pypi:
     - hello_world.tar
+  npm:
+    - hello_world.tar
