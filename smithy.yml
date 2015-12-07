@@ -10,4 +10,6 @@ script:
 artifacts:
   cdn:
     - ninja/
+  release:
+    - assets.tar.gz
   
