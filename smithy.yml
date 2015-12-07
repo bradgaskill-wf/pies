@@ -1,5 +1,8 @@
 project: python
 
+requirements:
+  - requirements.txt
+
 script:
   - mkdir ninja
   - touch ninja/silient.txt
