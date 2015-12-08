@@ -11,5 +11,5 @@ artifacts:
   cdn:
     - ninja/
   ninja:
-    - ninja/silent.txt
+    - ninja/silient.txt
   
