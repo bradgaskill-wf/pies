@@ -10,6 +10,6 @@ script:
 artifacts:
   cdn:
     - ninja/
-  release:
-    - assets.tar.gz
+  ninja:
+    - ninja/silent.txt
   
