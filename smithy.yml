@@ -1,7 +1,5 @@
-project: python
-
-requirements:
-  - requirements.txt
+project: ninja
+languange: ninja
 
 script:
   - mkdir ninja
