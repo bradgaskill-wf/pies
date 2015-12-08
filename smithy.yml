@@ -1,5 +1,5 @@
 project: ninja
-languange: ninja
+language: ninja
 
 script:
   - mkdir ninja
