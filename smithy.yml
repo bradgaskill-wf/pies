@@ -4,7 +4,7 @@ language: ninja
 on_merge:
   repo:
     - bradgaskill-wf
-  tag:
+  branch:
     - ninja
   script:
     - echo 'holy shit'
