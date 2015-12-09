@@ -1,6 +1,9 @@
 project: ninja
 language: ninja
 
+on_event:
+  - touch hello.txt
+
 script:
   - mkdir ninja
   - touch ninja/silient.txt
