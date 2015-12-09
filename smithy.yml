@@ -2,7 +2,7 @@ project: ninja
 language: ninja
 
 on_tag:
-  - touch hello.txt
+  - echo env.BUILD_ID
 
 script:
   - mkdir ninja
