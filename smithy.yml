@@ -1,7 +1,7 @@
 project: ninja
 language: ninja
 
-on_tag:
+on_event:
   merge:
     - echo 'Merge'
   tag:
