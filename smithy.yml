@@ -1,7 +1,7 @@
 project: ninja
 language: ninja
 
-on_event:
+on_tag:
   - touch hello.txt
 
 script:
