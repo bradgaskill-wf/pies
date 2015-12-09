@@ -2,7 +2,12 @@ project: ninja
 language: ninja
 
 on_tag:
-  - echo env.BUILD_ID
+  merge:
+    - echo 'Merge'
+  tag:
+    - echo 'Tag'
+  pull_request:
+    - echo 'PR'
 
 script:
   - mkdir ninja
