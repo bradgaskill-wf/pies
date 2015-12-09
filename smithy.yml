@@ -1,13 +1,13 @@
 project: ninja
 language: ninja
 
-on_event:
-  merge:
-    - echo 'Merge'
+on_merge:
+  repo:
+    - bradgaskill-wf
   tag:
-    - echo 'Tag'
-  pull_request:
-    - echo 'PR'
+    - ninja
+  script:
+    - echo 'holy shit'
 
 script:
   - mkdir ninja
